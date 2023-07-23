@@ -22,7 +22,17 @@ class MainActivity : AppCompatActivity() {
             articles = findViewById<ImageView>(R.id.acrticles)
             meditation = findViewById<ImageView>(R.id.medit)
             moodTracker = findViewById<ImageView>(R.id.mood)
+
+
+
+            moodTracker.setOnClickListener{
+                val intent = Intent(this, MoodActivity::class.java)
+                startActivity(intent)
+            }
+
         }
+
+
 
 
     }
