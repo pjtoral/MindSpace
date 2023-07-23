@@ -1,0 +1,50 @@
+<!-- activity_welcome.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/galaxy_bg">
+
+    <ImageView
+        android:id="@+id/imageViewLogo"
+        android:layout_width="265dp"
+        android:layout_height="326dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="72dp"
+        android:src="@drawable/app_logo" />
+
+    <TextView
+        android:id="@+id/textViewPrompt"
+        android:layout_width="325dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageViewLogo"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="Start Your Wellness Journey"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:shadowColor="#FF00E5"
+        android:shadowRadius="25"
+        android:shadowDx="0"
+        android:shadowDy="0" />
+
+    <Button
+        android:id="@+id/startWellnessButton"
+        android:layout_width="175dp"
+        android:layout_height="46dp"
+        android:layout_below="@id/textViewPrompt"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/button_background"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:text="@string/start_wellness_button"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+</RelativeLayout>
