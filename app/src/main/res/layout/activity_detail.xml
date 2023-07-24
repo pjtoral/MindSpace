@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mood_bg">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/images"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/reminder_1"
+            android:contentDescription="@null"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mental Health Matters"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:paddingBottom="8dp"
+            android:gravity="center"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:justificationMode="inter_word"
+            android:textAlignment="viewStart"
+            android:textColor="@color/white"
+            android:text="Mental health is an essential aspect of our overall well-being, shaping how we think, feel, and act in our daily lives. It is a state of emotional and psychological balance that allows us to cope with the challenges, stressors, and complexities of life. Just as physical health is vital for a healthy body, mental health plays a crucial role in shaping a healthy and fulfilling life. In this article, we will explore the reasons why mental health matters and the profound impact it has on our lives." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text= "Mental health serves as the foundation for a healthy lifestyle. It influences how we perceive ourselves, others, and the world around us. A sound mental state enables us to build and maintain positive relationships, make informed decisions, and adapt to life's ups and downs effectively. When our mental health is intact, we are better equipped to navigate challenges and pursue personal growth and fulfillment. Emotional Resilience"
+            android:justificationMode="inter_word"
+            android:textColor="@color/white"
+            android:textAlignment="viewStart"/>
+    </LinearLayout>
+</ScrollView>

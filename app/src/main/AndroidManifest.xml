@@ -22,7 +22,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".MoodActivity"/>
-
+        <activity android:name=".TimerActivity"/>
+        <activity android:name=".ArticleActivity"/>
+        <activity android:name=".DetailActivity" />
     </application>
 
 </manifest>
